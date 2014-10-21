@@ -1,1 +1,4 @@
-Hello home index
+<!--perduotu parametru spausdinimas-->
+Hello <?=$data['name'] ?> 
+
+    
