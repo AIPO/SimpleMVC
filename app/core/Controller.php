@@ -8,8 +8,8 @@ class Controller {
         return new $model();
     }
 
-    public function view($view, $data) {
-        
+    public function view($view, $data =[]) { //$data turi buti aprasytas array
+        require_once '../app/views/'. $view. '.php'; //pataisytas slashas
     }
 
 }

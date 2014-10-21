@@ -5,7 +5,7 @@ class Home extends Controller{
         $user = $this->model('User');
         $user->name = $name; 
 // pasiprasem user modelio ir per parametra perduodam reiksme is paspausdina.      
-        echo $user->name;
+        $this->view('home/index');// nurodomas kelias i view
     }
 }
 
